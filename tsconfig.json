@@ -1,0 +1,3 @@
+{
+  "extends": "@ShopOS-Platform/config/tsconfig.base.json"
+}

@@ -1,0 +1,53 @@
+---
+import Layout from '@/layouts/Layout.astro';
+---
+
+<Layout title="ShopOS-Platform">
+	<div class="flex flex-col items-center justify-center gap-8 py-12">
+		<div class="text-center">
+			<h1 class="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">
+				Welcome to <span class="text-primary">ShopOS-Platform</span>
+			</h1>
+			<p class="text-lg text-muted-foreground">
+				Built with Astro and Better Fullstack
+			</p>
+		</div>
+
+		<div class="mt-8 rounded-lg border border-border bg-card p-6 shadow-sm">
+			<h2 class="mb-4 text-xl font-semibold">Static Site</h2>
+			<p class="text-sm text-muted-foreground">
+				This is a static Astro site without client-side JavaScript framework.
+			</p>
+		</div>
+
+		<div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+			<a
+				href="https://docs.astro.build/"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="rounded-lg border border-border bg-card p-4 transition-colors hover:border-primary"
+			>
+				<h3 class="font-semibold">Astro Docs</h3>
+				<p class="text-sm text-muted-foreground">Learn about Astro's features and API.</p>
+			</a>
+			<a
+				href="https://better-fullstack-web.vercel.app"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="rounded-lg border border-border bg-card p-4 transition-colors hover:border-primary"
+			>
+				<h3 class="font-semibold">Better Fullstack</h3>
+				<p class="text-sm text-muted-foreground">Full-stack TypeScript development.</p>
+			</a>
+			<a
+				href="https://astro.build/integrations/"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="rounded-lg border border-border bg-card p-4 transition-colors hover:border-primary"
+			>
+				<h3 class="font-semibold">Integrations</h3>
+				<p class="text-sm text-muted-foreground">Extend Astro with plugins and frameworks.</p>
+			</a>
+		</div>
+	</div>
+</Layout>

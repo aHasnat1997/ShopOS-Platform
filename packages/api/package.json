@@ -1,0 +1,26 @@
+{
+  "name": "@ShopOS-Platform/api",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ShopOS-Platform/db": "workspace:*",
+    "@ShopOS-Platform/env": "workspace:*",
+    "@ts-rest/core": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@ShopOS-Platform/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}
